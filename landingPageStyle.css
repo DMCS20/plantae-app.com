@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: rgb(226, 27, 27);
+    height: 80px;
+    width: 100%;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: capitalize;
+}
+
+a.active, a:hover{
+    background-color: rgb(139, 25, 25);
+    transition: 0.5s;
+}
+
+section.banner{
+    background: linear-gradient(to left, white, rgb(242, 241, 241));
+    padding: 3rem 0;
+}
+
+div.bannerContainer{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(20rem, 1fr));
+}
+
+div.bLeft{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.bRight{
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 2rem;
+    color: black;
+}
+
+#bTxt{
+    margin: 2rem 0;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    text-align: justify;
+}
+
+.bBtn{
+    
+}
